@@ -1,0 +1,62 @@
+.footer-container {
+  width: 100%;
+  background-color: #324544;
+
+}
+
+
+.footer-wrapper {
+  color: white;
+  padding: 1.5em;
+  width: 50%;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  justify-content: space-between;
+}
+
+.loan-awaits {
+  padding-right: 1.5em;
+}
+
+.new-loan {
+  padding: 1.3em;
+  font-size: 1.4em;
+}
+
+
+.sub-data {
+  padding-top: 2em;
+  padding-bottom: 2em;
+  width: 100%;
+  background-color: #222e2e;
+  text-align: center;
+}
+
+.email {
+  color: white;
+  font-size: 1em;
+}
+
+.sub-text {
+  color: grey;
+}
+
+
+.link {
+  color: grey;
+  text-decoration: none;
+}
+
+
+@media screen and (max-width: 960px) {
+  .footer-wrapper {
+    flex-direction: column;
+  }
+
+  .loan-awaits {
+    padding: 0;
+  }
+
+}

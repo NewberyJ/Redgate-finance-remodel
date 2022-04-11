@@ -1,0 +1,187 @@
+
+.container {
+  background-color: #f2f2f2;
+  width: 100%;
+  padding-bottom: 5em;
+}
+
+
+.slider-container {
+  height: 100px;
+  width: 500em;
+  padding: 2em;
+  background: white;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+}
+
+
+.overflow-container {
+  overflow: hidden;
+}
+
+
+.item {
+animation: constantslide 25s linear;
+animation-iteration-count: infinite;
+}
+
+@keyframes constantslide {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(62%);
+  }
+}
+
+.xaviera-img {
+  padding: 5em;
+  margin-left: 5em;
+}
+
+.heading {
+  text-align: center;
+  font-size: 2em;
+  padding: 2em;
+  font-family: 'Baloo 2', cursive;
+}
+
+
+.names {
+  padding: 3em;
+}
+
+.second-container {
+  text-align: center;
+}
+
+
+h2 {
+  padding-top: 30vh;
+}
+
+.blurb-one {
+  font-size: 1.4em;
+  margin-left: 10em;
+  margin-right: 10em;
+  text-align: center;
+  font-family: 'Baloo 2', cursive;
+}
+
+.blurb-two {
+  padding: 3rem;
+  font-size: 1.2em;
+  text-align: center;
+  font-family: 'Baloo 2', cursive;
+  margin: auto;
+  width: 50%;
+}
+
+.content {
+  padding: 2em;
+}
+
+.button-about {
+  padding: 2em;
+}
+
+
+.second-hero-container {
+  width: 100%;
+  height: 50vh;
+  background-image: url('./stock-pattern.jpg');
+  background-repeat: repeat;
+}
+
+
+.small-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.second-hero {
+  padding: 3em;
+  padding-top: 10em;
+  text-align: center;
+  color: #fff;
+}
+
+
+.cards2-container {
+  width: 50%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+button {
+}
+
+
+@media screen and (max-width: 1045px) {
+  .small-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .xaviera-img {
+    margin: 0;
+    padding: 0;
+    width: 15em;
+    padding-top: 5em;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  body {
+    overflow-x: hidden;
+  }
+
+
+.content {
+  padding: 0;
+}
+
+.blurb-one {
+  padding: 1em;
+  margin: 1em;
+  font-size: 1em;
+}
+
+.blurb-two {
+  padding: 0;
+  margin: 0;
+  font-size: 1em;
+}
+
+.second-hero-container {
+  height: 20%;
+}
+
+.second-hero {
+  padding-top: 2em;
+}
+
+.small-container {
+  flex-direction: column;
+  align-items: center;
+}
+
+.xaviera-img {
+  margin: 0;
+  padding: 0;
+  width: 15em;
+  padding-top: 5em;
+}
+
+
+.cards2-container {
+  width: 100%;
+}
+
+
+
+}
